@@ -13,11 +13,7 @@
       background-color: #f9f9f9;
       color: #333;
     }
-    h1 {
-      text-align: center;
-    }
-    h2 {
-      margin-top: 30px;
+    h1, h2 {
       color: #2c3e50;
     }
     a {
@@ -26,6 +22,13 @@
     }
     a:hover {
       text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    strong {
+      display: block;
+      margin-top: 1em;
     }
   </style>
 </head>
@@ -44,7 +47,7 @@
 
   <p>The app does use third party services that may collect information used to identify you.</p>
 
-  <p><strong>Link to privacy policy of third party service providers used by the app:</strong></p>
+  <strong>Link to privacy policy of third party service providers used by the app:</strong>
   <ul>
     <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Services</a></li>
     <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob</a></li>
